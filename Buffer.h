@@ -8,4 +8,5 @@ void applyReplacementPolicies(buffer *bPool);
 void bufferInsert(buffer *bPool,char *tuple, int diskSeek, int tupleLenght);
 //Função que vai ler os arquivos de dados e metadados
 int fillBuffer(buffer *bufferPool, field *fieldList,char fMeta[], char fData[]);
-
+//Função que mostrará o conteúdo do Buffer Pool na tela
+void showBuffer(buffer *bufferPool);
