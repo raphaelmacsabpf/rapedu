@@ -1,3 +1,5 @@
+//Este trabalho utiliza a licença GNU General Public License.
+
 //Inicializa o buffer
 void initBuffer(buffer *bPool,int lenght,field *fieldList, int fieldCount);
 //Procura a próxima página disponível
